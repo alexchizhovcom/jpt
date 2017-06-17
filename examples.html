@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JsPureTabs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link type="text/css" rel="stylesheet" href="examples.css">
+        
+        <!-- JsPureTabs Plugin Files -->
+        <link type="text/css" rel="stylesheet" href="src/jpt.css">
+        <script src="src/jpt.js"></script>
+        <!-- /JsPureTabs Plugin Files -->
+
+        
+
+    </head>
+    <body>
+
+        <div id="hello_world">
+            <div data-tab="anynameyouwant1" data-tab-name="Tab Title 1">Our first tab
+                <br>One more line</div>
+            <div data-tab="anynameyouwant2" data-tab-name="Tab Title 2">Our second tab</div>
+            <div data-tab="anynameyouwant3" data-tab-name="Tab Title 3">Our third tab</div>
+        </div>
+
+        
+        <script>
+            JsPureTabs = new JsPureTabs('hello_world');
+            JsPureTabs.init({
+                defaultTab: 3,
+                containerWidth: '500px',
+                containerHeight: 200,
+                horizontalPosition: 'bottom'
+            });
+        </script>
+
+    </body>
+</html>

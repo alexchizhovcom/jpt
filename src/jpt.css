@@ -1,0 +1,40 @@
+.jpt-container {
+    width: 100%;
+    display: block;
+}
+
+.jpt-controlls {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.jpt-controlls li {
+    display: inline-block;
+    background: #9bd7d5;
+    cursor:pointer;
+    padding:8px 10px;
+    margin-right:3px;
+
+
+}
+
+.jpt-controlls li.jpt-active {
+    background: #fff;
+}
+
+.jpt-show {
+    display: block;
+}
+
+.jpt-hide {
+    display: none;
+}
+
+.jpt-content{
+    padding:10px;
+    box-sizing:border-box;
+    background:#fff;
+}
